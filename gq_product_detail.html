@@ -1,0 +1,264 @@
+<!doctype html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+		<link rel="stylesheet" href="css/pro_detail.css">
+		<link rel="stylesheet" href="css/base.css">
+	  <link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/footer.css">
+  </head>
+  <body>
+      <div id="header">
+			</div>
+			<div  id="add_bg">
+      </div>
+      <div id="cart">
+            <div class="cart_content">
+                 <div class="con_top">
+                       <span>商品成功放入购物车</span>
+                       <a href="javascript:;" id="fan">×</a>
+                 </div>
+                 <div class="con_midle">
+                       <div class="midle">
+                             <span></span>
+                             <p class="pp">
+                                     购物车共有<span class="red" id="pro_show">1</span>件商品，商品总金额合计：<span class="yen bold red" id="pri_show">¥5888</span>
+                             </p>
+                       </div>
+                 </div>
+                 <div class="btnss">
+                       <a href="javascript:;" class="back_pro">继续购物</a>
+                       <a href="gq_product_cart.html" class="to_cart">查看购物车 </a>
+                 </div>
+            </div>
+      </div>
+			<div id="pro_detail">
+			        <div class="goods-display">
+                  <div class="stage">
+                      <a href="javascript:;">
+                         <img src="">
+                      </a>
+                      <div id="mask"></div>
+                      <div id="superMask"></div>
+                  </div>
+                  <div id="largeDiv"></div>
+                  <div class="thumb">
+                      <div id="JS_goods_album_btn" class="arrow hd">
+                          <a href="javascript:;" class="prev" disabled="false"></a>
+                          <a href="javascript:;" class="next" disabled="false"></a>
+                      </div>
+                      <div class="table table1">
+                          <!--<div class="tempWrap">-->
+                              <ul id="JS_goods_album_stage" class="clearfix">
+                                  <li class="album_item">
+                                       <a href="javascript:;"></a>
+                                       <img src="" id="img1">
+                                  </li>
+                                  <li class="album_item">
+                                       <a href="javascript:;"></a>
+                                       <img src="" id="img2">
+                                  </li>
+                                  <li class="album_item">
+                                       <a href="javascript:;"></a>
+                                       <img src="" id="img3">
+                                  </li>
+                                  <li class="album_item">
+                                       <a href="javascript:;"></a>
+                                       <img src="" id="img4">
+                                  </li>
+                                  <li class="album_item">
+                                       <a href="javascript:;"></a>
+                                       <img src="" id="img5">
+                                  </li>
+                              </ul>
+                          <!--</div>-->
+                      </div>
+                  </div>
+					    </div>
+					    <form id="ECS_FORMBUY" name="ECS_FORMBUY" method="post">
+					      <div id="JS_goods_info_panel" class="goods-panel">
+								    <div class="title">
+                         <h4 class="main-title">
+												      <a href="brand.php?id=48" target="_blank">[ <span class="st">鸣泉</span> ]</a>
+															<span class="br_title">天音-鸣泉 伏羲 百年老杉</span>                    <span class="sn">编号：ECS000445</span>
+												 </h4>
+												 <h4 class="sub-title" id="JS_goods_sub_title">
+												 </h4>
+										</div>
+                                        <ul class="price">
+										     <li class="price-att">
+												     <table>
+																	<tbody>
+																	    <tr>
+																			     <td>
+																					     <span id="JS_effect_price_type" class="key">本站价</span>
+																					 </td>
+																					 <td>
+																					     <span class="yen">￥
+																							 </span>
+																							 <span id="current_price" class="num">
+																							 </span>
+																					 </td>
+																			</tr>
+																	</tbody>
+														 </table>
+												 </li>
+										     <li class="price-ext">
+												     <table>
+																	<tbody>
+																	    <tr>
+																			     <td>
+																					     <span class="key">商店价</span>
+																					 </td>
+																					 <td>
+																					     <del class="mt old_price" >¥
+																							 </del>
+																							 <a class="mt JS_jump" href="javascript:void(0);">已售
+																							      <span id="JS_goods_saled_number" class="panel_red">
+																										</span>
+																							 </a>
+																							 <a class="mt JS_jump" href="javascript:void(0);">用户评分
+																							      <span id="JS_goods_comment_num" class="panel_red">
+																										</span>
+																							 </a>
+																					 </td>
+																					 <td>
+																					     <a href="javascript:;" class="chat"></a>
+																					 </td>
+																			</tr>
+																	</tbody>
+														 </table>
+												 </li>
+										</ul>
+										<div class="table clearfix">
+										     <div class="spec">
+												      <span class="key">
+															款式：
+															</span>
+															<em class="style"></em>
+												 </div>
+												 <div class="spec">
+												      <span class="key">
+															品牌：
+															</span>
+															<em class="brand"></em>
+												 </div>
+												 <div class="spec">
+												      <span class="key">
+															产地：
+															</span>
+															<em class="place"></em>
+												 </div>
+												 <dl class="number clearfix">
+												      <dt>数量</dt>
+															<dd>
+															    <div class="row">
+																	    <div class="input">
+																			    <input type="text" value="1" class="goodsNumber" name="number" id="product_amount">
+																					<div class="click">
+																					    <a class="JS_add ber" href="javascript:;"></a>
+																							<a class="JS_minus ber" href="javascript:;" id="reduce"></a>
+																					</div>
+																			</div>
+																			<div id="JS_goods_stock_notice" class="Left red">
+																			  库存数(<span class="kucun"></span>)
+																			</div>
+																	</div>
+															</dd>
+												 </dl>
+												 <dl class="btns clearfix">
+												      <span id="JS_change_btn">
+															    <a href="javascript:;" class="gift btn-lxmm-new"></a>
+															</span>
+															<a href="" id="JS_goods_panel_add" href="" class="add normal JS_addToCart shop_normal add_normal_new" target="_blank"></a>
+												 </dl>
+												 <dl class="service clearfix">
+												      <dt>服务承诺</dt>
+															<dd>
+															    <div class="list Left">
+																	    <a href="javascript:;" class="a JS_show_tip1">终生服务</a>
+																			<a href="javascript:;" class="a JS_show_tip2">精选品质</a>
+																			<a href="javascript:;" class="a JS_show_tip3">假一罚十</a>
+																			<a href="javascript:;" class="a JS_show_tip4">实体同步</a>
+																	</div>
+																	<div class="pay Right">
+																	    <ul class="extra clearfix">
+																			    <li class="collect" id="JS_collect_this_goods">
+																					    <a class="icon" href="javascript:collect(445)">收藏商品</a>
+																					</li>
+																			</ul>
+																	</div>
+															</dd>
+												 </dl>
+										</div>
+								</div>
+					</form>
+			</div>
+			<div id="detail_main">
+			    <div class="detail_main">
+					    <div id="JS_float_navs" class="module-toggle-bar">
+							    <ul class="list">
+									    <li class="on">
+											    <a href="javascript:;" class="first current" id="JS_gd_tab_head_xiangqing">商品详情</a>
+											</li>
+									    <li>
+											    <a href="javascript:;" id="JS_gd_tab_head_guige">规格参数</a>
+											</li>
+									    <li>
+													<a href="javascript:;" id="JS_gd_tab_head_pingjia">
+													   评价<span class="red">(45)</span>
+													</a>
+											</li>
+									    <li>
+													<a href="javascript:;" id="JS_gd_tab_head_tiyanguan" >实体店</a>
+											</li>
+									    <li>
+													<a href="javascript:;" id="JS_gd_tab_head_tiyanguan">服务保障</a>
+											</li>
+									</ul>
+							</div>
+							<ul class="bd">
+							     <li>
+									     <img src="img/gq_index/ty/ty_ch/mi_qu_lj1_1.png">
+									 </li>
+							     <li>
+									     <img src="img/gq_index/ty/ty_ch/mi_qu_lj1_2.png">
+									 </li>
+							     <li>
+									     <img src="img/gq_index/ty/ty_ch/mi_qu_lj1_3.png">
+									 </li>
+							     <li>
+									     <img src="img/gq_index/ty/ty_ch/mi_qu_lj1_4.png">
+									 </li>
+							     <li>
+									     <img src="img/gq_index/ty/ty_ch/mi_qu_lj1_5.png">
+									 </li>
+									 <li>
+									     <img src="img/gq_index/ty/ty_ch/mi_qu_lj1_6.png">
+									 </li>
+									 <li>
+									     <img src="img/gq_index/ty/ty_ch/mi_qu_lj1_7.png">
+									 </li>
+									 <li>
+									     <img src="img/gq_index/ty/ty_ch/mi_qu_lj1_8.png">
+									 </li>
+									 <li>
+									     <img src="img/gq_index/ty/ty_ch/mi_qu_lj1_9.png">
+									 </li>
+							</ul>
+					</div>
+			</div>
+			<div id="hori_promise">
+			     <span>因为专注</span>
+           <span>所以专业</span>
+			</div>
+      <div id="footer">
+			</div>
+			<script src="js/jquery-3.2.1.js"></script>
+      <script src="js/ajax.js"></script>
+	    <script src="js/header.js"></script>
+      <script src="js/footer.js"></script>
+      <script src="js/gq_product_detail.js"></script>
+  </body>
+</html>

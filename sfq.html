@@ -1,0 +1,77 @@
+<!doctype html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+		<style>
+		     
+		     #a{
+				     width:1000px;
+						 height:700px;
+						 margin:100px auto;
+						 background:#ddd;
+						 position:relative;
+				 }
+         #a>div{				     
+						 height:700px;
+						 float:left;
+						 position:relative;
+						 bottom:0px;
+						 transition:all .5s linear;
+				 }
+				 #a1{				     
+						 background:red;
+						 width:700px;
+
+						 z-index:100;
+				 }
+         #a1>h1,#a2>h1,#a3>h1,#a4>h1{
+				     width:100px;
+						 height:700px;
+						 background:rgba(0,0,0,0.4);
+						 font-size:3em;
+						 color:#fff;
+						 position:absolute;
+						 left:0;
+						 bottom:0;
+				 }
+         #a2{	
+				     width:100px;
+						 background:yellow;
+
+						 z-index:0;
+				 }
+				 #a3{		
+				     width:100px;
+						 background:blue;
+             
+						 z-index:0;
+				 }
+				 #a4{	
+				     width:100px;
+						 background:green;
+
+						 z-index:0;
+				 }
+		</style>
+  </head>
+  <body>
+	 <div id="main">
+      <div id="a">
+			    <div id="a1">木乙</div>
+					<div id="a2">仲尼</div>
+					<div id="a3">敦煌</div>
+					<div id="a4">采桑</div>
+			</div>
+	 </div>
+  </body>
+	<script src="js/jquery-3.2.1.js"></script>
+	<script>
+	     $("#a").on("mouseenter","div",(e)=>{
+			     e.preventDefault();					 
+					 $tar=$(e.target);
+					 console.log($tar);
+					 $tar.css({"width":700,"z-index":100,"transform":"scale(1.1)"}).siblings().css({"width":100,"z-index":0,"transform":"scale(1)"});
+			 });
+	</script>
+</html>

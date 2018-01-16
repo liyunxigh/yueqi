@@ -1,0 +1,33 @@
+#user_agreement_content{
+     width:100%;
+		 height:1000px;
+		 margin-top:10px;
+     background:url(../img/index/gq_lb1.jpg) no-repeat;
+		 background-size:100% 100%;		 
+}
+#user_agreement{
+		 width:1000px;
+		 margin:140px auto;
+		 background-color:rgba(120,100,111,0.7);
+     border-radius:5px;
+		 text-align:center;
+		 box-sizing:border-box;
+		 padding:10px 80px 10px 80px;
+		 color:#0aa1ed;
+}
+.agreement_content{
+     margin-top:50px;
+		 
+}
+.agreement_content>p{
+     margin-top:20px;
+		 color:#f4f4f4;
+}
+.load_register>a{
+     font-size:1.2em;
+     color:#000;
+		 margin-left:70%;
+}
+.load_register>a:hover{
+     color:#f4f4f4;
+}

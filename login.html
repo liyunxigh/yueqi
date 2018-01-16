@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>登录</title>
+  <link rel="stylesheet" href="css/vali.css">
+	<link rel="stylesheet" href="css/login.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+  <div id="header">
+	</div>
+  <div id="login_content">
+	    <table></table>
+			<div class="login">
+<!-- 			      <h1>注册成功</h1> -->
+<!-- 						<h3><a href="login.html">去登录</a></h3> -->
+			</div>
+			<form id="login">
+					<div class="uname">
+							<span>尊称:</span> 
+							<input id="uname" type="text" name="uname" placeholder="手机号|邮箱|微信" />
+							<span id="uname_show"></span>
+				  </div>
+				  <div class="upwd">
+							<span>密码:</span> 
+							<input id="upwd" type="password" name="upwd" placeholder="请输入您的密码"/>
+							<span id="upwd_show"></span>
+				  </div>
+					<div class="yzm">
+							<img id="setYzm"  title="看不清点击换一张" src="data/03_code_gg.php" />
+							<input id="yzm" type="text" placeholder="请输入验证码" required />
+							<span id="yzm_show"></span>
+					</div>
+					<div class="btns">
+					    <input id="btnLogin" type="button" value="登录">
+					</div>
+					<div class="load_index">
+					    <a href="register.html">去注册</a>
+							<a href="forget_pwd.html">忘记密码</a>
+					</div>
+					
+					
+			</form>	
+	</div>
+	<div id="footer">
+	</div>
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/ajax.js"></script>
+	<script src="js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>注册</title>
+  <link rel="stylesheet" href="css/vali.css">
+	<link rel="stylesheet" href="css/register.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+  <div id="header">
+	</div>
+	<div id="register_content">
+	    <table></table>
+			<div class="register">
+<!-- 			      <h1>注册成功</h1> -->
+<!-- 						<h3><a href="login.html">去登录</a></h3> -->
+			</div>
+			<form id="register">
+			  <div class="uname">
+				    <span>尊称:</span> 
+				    <input id="uname" type="text" name="uname" placeholder="手机号|邮箱|微信" />
+						<span id="uname_show">*</span>
+				</div>
+				<div class="upwd">
+				    <span>密码:</span> 
+				    <input id="upwd" type="password" name="upwd" placeholder="请输入您的密码"/>
+            <span id="upwd_show">*</span>
+				</div>				
+				<div class="cupwd">
+				    <span>确认密码:</span> 
+				    <input id="cupwd" type="password" name="cupwd" placeholder="请再次输入您的密码"/>
+            <span id="cupwd_show">*</span>
+				</div>
+				<div class="email">
+				    <span>邮箱:</span> 
+				    <input id="email" type="email" name="email" placeholder="请输入您的邮箱"/>
+            <span id="email_show"></span>
+				</div>
+				<div class="phone">
+				    <span>电话:</span> 
+				    <input id="phone" type="phone" name="phone" placeholder="请输入您的电话"/>
+            <span id="phone_show"></span>
+				</div>
+				<div class="yzm">
+							<img id="setYzm"  title="看不清点击换一张" src="data/03_code_gg.php" />
+							<input id="yzm" type="text" placeholder="请输入验证码" required />
+							<span id="yzm_show">*</span>
+				</div>
+        <div class="user_agree">
+				    <label><input type="checkbox" checked="checked">同意<a href="user_agreement.html" style="color:#fff">《用户使用手册》</a></label>
+				</div>
+				<div class="btns">
+				    <input id="btnReg" type="button" value="注册">
+				</div>
+				<div class="load_index">
+            <a href="login.html">去登录</a>
+				    <a href="index.html">&lt;&lt;&lt;返回首页</a>
+				</div>	
+			</form>
+	</div>  
+  <div id="footer">
+	</div>
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/ajax.js"></script>
+	<script src="js/register.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+#login_content{
+     width:100%;
+		 height:700px;
+		 margin-top:10px;
+     background:url(../img/index/gq_lb1.jpg) no-repeat;
+		 background-size:100% 100%;		 
+}
+#login,.login{
+		 width:700px;
+		 margin:140px auto;
+		 background-color:rgba(120,100,111,0.7);
+     border-radius:3px;
+		 text-align:left;
+		 box-sizing:border-box;
+		 padding:10px 0 10px 80px;
+}
+.login{
+     display:none;
+		 margin:70px 0 0 150px;
+}
+#login>div{
+     line-height:30px;
+		 margin-top:15px;
+		 color:#f4f4f4;
+}
+#login>div>span:first-child{
+     font-size:1.5em;
+		 line-height:20px;
+}
+#login>div>span:last-child{
+     font-size:1em;
+}
+#login>div>input{
+     height:30px;
+     line-height:30px;
+		 border-radius:2px;
+		 outline:none;
+}
+#login>.btns>input{
+		 height:35px;
+		 width:45%;
+		 background:#0aa1ed;
+		 font-size:1em;
+		 cursor:pointer;
+		 color:#f4f4f4;
+}
+#uname,#upwd{
+     width:35%;
+}
+#setYzm{
+     width:22%;
+}
+#yzm{
+     width:22%;
+}
+#login>.load_index>a{
+     font-size:1em;
+		 color:#000;
+}
+#login>.load_index>a:last-child{
+     margin-left:25%;
+}
+#login>.load_index>a:hover{
+		 color:#f4f4f4;
+}
