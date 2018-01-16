@@ -198,7 +198,7 @@ $(function(){
           $("#shopping-cart .totalPrices,#shopping-cart .foot-price");
         function getTotal(){
           var $rows=
-            $(".imfor:has('.check>img[src$='true.png']')");
+            $(".imfor:has(.check>img[src$='true.png'])");
           var $inputs=$rows.find(".num>input");
           var $subs=
             $rows.find(".total-price>:last-child");
